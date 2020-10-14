@@ -1,0 +1,10 @@
+@import '../../Common-scss/variables.scss';
+.jumbotron {
+    @include center-row;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
